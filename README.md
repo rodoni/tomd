@@ -19,8 +19,6 @@ You can get the environment set up and all required packages installed by runnin
 1. Setting up the environment (this will create a virtual environment and install the package in editable mode):
    ```bash
    ./setup.sh
-   # Or directly install dependencies if you have your own environment active
-   ./install.sh
    ```
 
 2. Make sure your virtual environment is active:

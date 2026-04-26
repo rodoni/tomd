@@ -2,7 +2,6 @@
 name = "tomd"
 version = "0.1.0"
 description = "A CLI tool to convert PDF, DOC, and Excel documents into Markdown format"
-authors = [{name = "Antigravity", email = "antigravity@example.com"}]
 requires-python = ">=3.9"
 dependencies = [
     "click>=8.1.0",
@@ -19,3 +18,7 @@ tomd = "tomd.cli:cli"
 [build-system]
 requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["tomd*"]
+exclude = ["tests*"]
